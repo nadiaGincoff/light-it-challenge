@@ -2,6 +2,8 @@
 
 A patient management system built with React, TypeScript, and Vite. Features full CRUD operations with a clean, responsive UI.
 
+<img width="2522" height="1329" alt="image" src="https://github.com/user-attachments/assets/418765e9-9fa0-4dfb-ad87-d600b6722500" />
+
 ## 🚀 Quick Start
 
 ```bash
