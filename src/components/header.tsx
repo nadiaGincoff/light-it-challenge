@@ -1,9 +1,5 @@
 import { motion } from 'framer-motion';
 
-// Components and Icons
-import { Button } from '@/components/ui/button';
-import { Plus } from 'lucide-react';
-
 type HeaderProps = {
   title: string;
   description: string;
@@ -12,13 +8,7 @@ type HeaderProps = {
   buttonText?: string;
 };
 
-export default function Header({
-  title,
-  description,
-  withButton = false,
-  buttonAction,
-  buttonText,
-}: HeaderProps) {
+export default function Header({ title, description }: HeaderProps) {
   return (
     <motion.header
       initial={{ opacity: 0, y: -20 }}
@@ -30,12 +20,6 @@ export default function Header({
           <h1 className="text-4xl font-bold text-medical-dark mb-2">{title}</h1>
           <p className="text-muted-foreground">{description}</p>
         </div>
-        {withButton && (
-          <Button onClick={buttonAction} size="lg" className="gap-2">
-            <Plus className="h-5 w-5" />
-            {buttonText}
-          </Button>
-        )}
       </div>
     </motion.header>
   );
