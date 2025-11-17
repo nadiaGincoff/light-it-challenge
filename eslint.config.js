@@ -30,7 +30,6 @@ export default defineConfig([
         'error',
         { argsIgnorePattern: '^_' },
       ],
-      'prettier/prettier': 'error',
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
