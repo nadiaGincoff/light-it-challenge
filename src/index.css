@@ -31,7 +31,6 @@
   --radius: 0.75rem;
 }
 
-
 @theme inline {
   --font-sans: 'Geist', 'Geist Fallback';
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
