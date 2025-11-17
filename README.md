@@ -72,8 +72,6 @@ src/
 
 ## 🎯 Key Design Decisions
 
-### Architecture: Hybrid State Management
-
 **Problem**: API only supports GET requests (read-only)
 
 **Solution**:

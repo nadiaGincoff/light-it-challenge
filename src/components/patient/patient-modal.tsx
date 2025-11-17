@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 
 import type { PatientCreateData, PatientUpdateData } from '@/types/patient';
 
-export const PatientModal = () => {
+export default function PatientModal() {
   const { isModalOpen, modalMode, selectedPatient, closeModal } =
     usePatientModal();
 
@@ -39,4 +39,4 @@ export const PatientModal = () => {
       </ModalBody>
     </Modal>
   );
-};
+}
